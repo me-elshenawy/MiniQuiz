@@ -583,7 +583,7 @@ const scorableQuestions = [
         question: "True or False: Folders that appear in the Start menu can be locally configured in Windows 10.",
         type: "single",
         options: ["True", "False"],
-        correctAnswerIndex: 1
+        correctAnswerIndex: 0
     },
 
     // Uninstalling Applications

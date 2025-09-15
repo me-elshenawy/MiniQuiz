@@ -1,49 +1,85 @@
-# Interactive Quiz Application - ITS Quiz App
+# ITS Quiz: Device Configuration and Management
 
-![ITS Quiz App Screenshot](https://github.com/me-elshenawy/MiniQuiz/assets/38206925/479ecb00-3fcc-41ab-8b9a-4f51e3ab1844)
+![GitHub repo size](https://img.shields.io/github/repo-size/me-elshenawy/MiniQuiz?style=for-the-badge)
+![GitHub stars](https://img.shields.io/github/stars/me-elshenawy/MiniQuiz?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/me-elshenawy/MiniQuiz?style=for-the-badge)
+![GitHub license](https://img.shields.io/github/license/me-elshenawy/MiniQuiz?style=for-the-badge)
 
-An interactive web application designed to test knowledge in **"Device Configuration and Management"**. Developed by **Mahmoud El-Shenawy**, this project leverages core web technologies (HTML, CSS, JavaScript) to provide a modern and seamless user experience. The quiz features a comprehensive set of 132 diverse questions.
+A web-based interactive quiz application designed to test knowledge on Device Configuration and Management. This quiz features a clean, responsive interface, dark/light mode, and includes 132 questions covering various IT topics such as file systems, user accounts, networking, security, and cloud services.
 
-## 🔗 Live Demo
+## ✨ Features
 
-Experience the application live on GitHub Pages:
+*   **Interactive Questions:** Engage with single and multiple-choice questions.
+*   **Progress Tracking:** A progress bar indicates your advancement through the quiz.
+*   **Instant Feedback:** Receive immediate feedback on your answers.
+*   **Score Summary:** A comprehensive results screen with total score and percentage.
+*   **Theme Toggle:** Switch between light and dark modes for comfortable viewing.
+*   **Responsive Design:** Optimized for various screen sizes, from desktops to mobile devices.
+*   **Question Shuffling:** Questions are randomized each time the quiz starts.
+*   **Developed By:** Mahmoud El-Shenawy.
 
-**[https://me-elshenawy.github.io/MiniQuiz/](https://me-elshenawy.github.io/MiniQuiz/)**
+## 🚀 Technologies Used
 
-## ✨ Key Features
+*   **HTML5:** For the core structure of the quiz.
+*   **CSS3:** For styling and responsive design.
+*   **JavaScript (ES6+):** For quiz logic, interactivity, and dynamic content.
+*   **Google Fonts:** Utilizing 'Poppins' for headings and 'Inter' for body text.
+*   **Feather Icons:** Lightweight, open-source icons for UI elements.
 
--   **Modern UI/UX:** A clean, intuitive, and attractive design focused on user experience.
--   **Theme Toggle:** Easily switch between light and dark modes for comfortable viewing.
--   **Randomized Questions:** Questions are shuffled on each session to ensure a new experience every time.
--   **Multiple Question Types:** Supports both single-choice (Radio Buttons) and multiple-choice (Checkboxes) questions.
--   **Progress Indicator:** A dynamic progress bar keeps users informed of their advancement through the quiz.
--   **Instant Feedback:** After each answer, the application highlights the correct solution, providing immediate learning.
--   **Results Summary:** A final results screen displays the user's score as a percentage, complemented by an engaging circular progress graph.
--   **Responsive Design:** The app is fully responsive and functions flawlessly across all device sizes, from mobile phones to desktops.
--   **No Dependencies:** Built entirely with vanilla JavaScript, making the project lightweight and fast.
+## 📸 Screenshots
 
-## 💻 Technologies Used
+_Coming Soon! Add screenshots of the welcome screen, quiz screen, and results screen here._
 
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+## 📋 Installation & Setup
 
-## 🚀 How to Run Locally
+To run this project locally, follow these simple steps:
 
-Since the project uses no build tools or external libraries, getting it up and running is straightforward:
-
-1.  **Clone the repository to your local machine:**
+1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/me-elshenawy/MiniQuiz.git](https://github.com/me-elshenawy/MiniQuiz.git)
+    git clone https://github.com/me-elshenawy/MiniQuiz.git
     ```
-
 2.  **Navigate to the project directory:**
     ```bash
     cd MiniQuiz
     ```
+3.  **Open `index.html`:**
+    Simply open the `index.html` file in your preferred web browser. No server setup is required!
 
-3.  **Open `index.html` in your favorite web browser.**
+## 💡 Usage
 
-That's it! The application will run directly in your browser.
+1.  **Welcome Screen:** Click the "Start Exam" button to begin the quiz.
+2.  **Quiz Screen:**
+    *   Read the question and select your answer(s).
+    *   The "Check Answer" button will become enabled once an option is selected.
+    *   Click "Check Answer" to see if your selection is correct.
+    *   Click "Next Question" to proceed.
+3.  **Results Screen:** After answering all questions, you will see your total score and percentage.
+4.  **Restart Quiz:** Click "Restart Quiz" to go back to the welcome screen and try again.
+5.  **Theme Toggle:** Use the sun/moon icon in the header to switch between light and dark modes at any time.
 
 ## 📂 Project Structure
+
+MiniQuiz/
+├── index.html # Main HTML structure of the quiz
+├── style.css # Styling for the quiz interface
+├── script.js # Core JavaScript logic for quiz functionality
+└── questions.js # Contains the array of quiz questions and answers
+
+
+## 🤝 Contributing
+
+Contributions are welcome! If you have suggestions for new questions, improvements to the UI/UX, or bug fixes, feel free to open an issue or submit a pull request.
+
+## 📄 License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgements
+
+*   Developed by Mahmoud El-Shenawy.
+*   Feather Icons for beautiful and simple SVG icons.
+*   Google Fonts for elegant typography.
+
+---
+
+**[View Live Project](https://me-elshenawy.github.io/MiniQuiz/)** (If you deploy it to GitHub Pages, otherwise remove this line)

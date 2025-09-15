@@ -65,7 +65,6 @@ MiniQuiz/
 ├── script.js # Core JavaScript logic for quiz functionality
 └── questions.js # Contains the array of quiz questions and answers
 
-
 ## 🤝 Contributing
 
 Contributions are welcome! If you have suggestions for new questions, improvements to the UI/UX, or bug fixes, feel free to open an issue or submit a pull request.

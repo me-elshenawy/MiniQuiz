@@ -57,17 +57,15 @@ To run this project locally, follow these simple steps:
 4.  **Restart Quiz:** Click "Restart Quiz" to go back to the welcome screen and try again.
 5.  **Theme Toggle:** Use the sun/moon icon in the header to switch between light and dark modes at any time.
 
-```markdown
+
 ## 📂 Project Structure
 
-```
 MiniQuiz/
 ├── index.html        # Main HTML structure of the quiz
 ├── style.css         # Styling for the quiz interface
 ├── script.js         # Core JavaScript logic for quiz functionality
 └── questions.js      # Contains the array of quiz questions and answers
-```
-```
+
 
 ## 🤝 Contributing
 
